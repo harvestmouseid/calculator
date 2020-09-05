@@ -34,23 +34,33 @@
             <form>
               <div class="row">
                 <div class="col-4">
-                  <label for="tlength">Tail Length (mm):</label>
+                  <label for="tlength"><b>Tail Length (mm)</b>:</label>
                 </div>
                 <div class="col-8">
                   <input type="number" id="tailLength">
                 </div>
               </div>
               <div class="row">
+                <div class="col-12">
+                  <p class="caption">Tail Length (mm) = From base of tail to caudal tip, with end of ruler positioned dorsally on rump and ruler (and tail) held 90-deg to long axis of body</p>
+                </div>
+              </div>
+              <div class="row">
                 <div class="col-4">
-                  <label for="blength">Body Length (mm):</label>
+                  <label for="blength"><b>Body Length (mm)</b>></label>
                 </div>
                 <div class="col-8">
                   <input type="number" id="bodyLength">
                 </div>
               </div>
               <div class="row">
+                <div class="col-12">
+                  <p class="caption">Body Length (mm) = Total length from rostral tip of snout to caudal tip of tail, with body held flat, ventral side down, along ruler; then minus tail length</p>
+                </div>
+              </div>
+              <div class="row">
                 <div class="col-4">
-                  <label for="sex">Sex:</label>
+                  <label for="sex"><b>Sex:</b></label>
                 </div>
                 <div class="col-8">
                   <select id="sexMF">
@@ -61,7 +71,7 @@
               </div>
               <div class="row">
                 <div class="col-4">
-                  <label for="repro">Reproductive Status:</label>
+                  <label for="repro"><b>Reproductive Status:</b></label>
                 </div>
                 <div class="col-8">
                   <select id="reproStat">
@@ -78,6 +88,11 @@
                 <p id="result"></p>
                 <p id="species"></p>
                 <p id="prob"></p>
+                <p class="disclaimer">
+                    <b>Disclaimer</b>
+                    <br>
+                    Results are only applicable to to the northern subspecies of salt marsh harvest mouse, <i>R. r. halicoetes</i>. Results to not apply to other subspecies.
+                  </p>
               </div>
             </form>
           </article>
