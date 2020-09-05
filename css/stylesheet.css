@@ -106,12 +106,6 @@ nav li a {
 	border-color:#75a0e6;
 }
 
-.measurements{
-	font-size: 10pt;
-	text-align: left;
-	list-style-type: none;
-}
-
 article {
 	width: 80%;
 	margin: 0 auto;
@@ -153,15 +147,16 @@ footer {
 
 .caption {
 	font-style: italic;
-	font-size: .75em;
+	font-size: .7em;
 }
 
 .result_area {
 	width: 100%;
-	height: 7em;
+	height: auto;
 }
 
 .disclaimer {
 	color: #8B0000;
 }
+
 
